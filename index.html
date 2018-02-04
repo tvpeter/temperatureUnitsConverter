@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Temperature Converter</title>
+   <link rel="stylesheet" type="text/css" href="style/styles.css">
+  </head>
+  <body>
+    <form class="module-active" id="add-contact">
+      <label for="add-contact" class="header">Temperature Converter</label>
+      <p>Select Units to convert from</p>
+      <select id="tmpunits">
+        <option value="C">C</option>
+          <option value="F">F</option>
+            <option value="K">K</option>
+      </select>
+      <input type="number" name="temp" class="contact-name" placeholder="Insert Temperature" id="tmpval">
+    <input type="submit" name="submit" value="Convert" id="convert">
+    </form>
+    <div id="contacts">
+      <div class="add-contact">Back to Converter</div>
+      <ul id="contact-list">
+
+      </ul>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
